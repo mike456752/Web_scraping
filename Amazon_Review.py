@@ -42,7 +42,7 @@ def scrape_all_reviews(url):
 
     return all_reviews
 
-url = "https://www.amazon.com/product-reviews/B08KGLMB1L"
+url = ""  # Enter the products you want to scrape (Example: https://www.amazon.com/product-reviews/B08KGLMB1L)
 all_reviews = scrape_all_reviews(url)
 
 df = pd.DataFrame(all_reviews)
